@@ -26,4 +26,5 @@ void loop() {
   delay(1000);
   Serial.println("tock");
   digitalWrite(OnBoardLed, LOW);  
+  delay(1000);
 }
